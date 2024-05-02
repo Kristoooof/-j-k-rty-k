@@ -9,6 +9,10 @@
     /* background-color: gray ; */
     
     width:25%;
+    filter: grayscale(100%);
+}
+.card:hover{
+    filter: grayscale(0%);
 }
 .card-text{
     
